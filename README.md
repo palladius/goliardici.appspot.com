@@ -8,3 +8,5 @@ This is my firdst AppEngine application for personal things.
 
 Ill start copying the tutorial from here:
 * https://developers.google.com/appengine/articles/python/getting_started_with_tasks_api
+https://developers.google.com/appengine/articles/python/getting_started_with_tasks_api
+
