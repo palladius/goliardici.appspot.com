@@ -1,0 +1,9 @@
+# copied from https://developers.google.com/appengine/articles/python/getting_started_with_tasks_api
+application: mytasks
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: .*
+  script: main.py
