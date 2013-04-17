@@ -1,12 +1,11 @@
 
-This is my firdst AppEngine application for personal things.
+copied from Ferris:
+git clone https://groups.google.com/forum/?fromgroups#!forum/ferris-framework
 
-* Python AppEngine
-* Adding new batch scripts (cron jobs, emails, ...)
-* adding DB
-* Adding 
+https://bitbucket.org/cloudsherpas/ferris-framework
 
-Ill start copying the tutorial from here:
-* https://developers.google.com/appengine/articles/python/getting_started_with_tasks_api
-https://developers.google.com/appengine/articles/python/getting_started_with_tasks_api
+About
+=====
+
+this is my first Ferris project. Should have people, groups and projects.
 

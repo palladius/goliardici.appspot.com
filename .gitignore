@@ -1,0 +1,4 @@
+# copied from Ferris
+*.pyc
+ds
+*.coverage
