@@ -9,3 +9,9 @@ About
 
 this is my first Ferris project. Should have people, groups and projects.
 
+Install
+=======
+
+Point to:
+
+  http://goliardici.appspot.com
