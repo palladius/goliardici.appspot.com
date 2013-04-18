@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+    <title>{{scaffolding.title}}</title>
+
+    <link rel="stylesheet" type="text/css" href="/ferris/css/bootstrap.min.css">
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/ferris/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+    	<div class="navbar">
+		    <div class="navbar-inner">
+		        <a class="brand" href="#">Blog</a>
+		        <ul class="nav">
+		            <li><a href="{{handler.uri('posts-list')}}">All</a></li>
+		            <li><a href="{{handler.uri('posts-list', mine=True)}}">Mine</a></li>
+		            <li><a href="{ { #handler.uri('posts-add') } }">New</a></li>
+		        </ul>
+		    </div>
+		</div>
+        {% block layout_content %}
+        {% endblock %}
+    </div>
+</body>
+</html>
