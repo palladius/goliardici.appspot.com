@@ -1,5 +1,6 @@
-application: goliardici    #.appspot.com
-version: 1
+# goliardici.appspot.com
+application: goliardici
+version: 100
 
 runtime: python27
 api_version: 1

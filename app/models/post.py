@@ -1,10 +1,13 @@
 from ferris.core.ndb import BasicModel
 from google.appengine.ext import ndb
 
+# 1.0.1 Added url and model_version
 
 class Post(BasicModel):
-    title = ndb.StringProperty()
-    content = ndb.TextProperty()
+    title         = ndb.StringProperty()
+    content       = ndb.TextProperty()
+    url           = ndb.TextProperty()
+    model_version = ndb.TextProperty(default='1.0.1')  # should be hidden
 
     @classmethod
     def all_posts(cls):
